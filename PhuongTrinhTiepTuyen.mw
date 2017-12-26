@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2016" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="768" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="standard" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-output="false" labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">PhuongTrinhTiepTuyen := module()
+	description &quot;Module gi\341\272\243i b\303\240i to\303\241n ph\306\260\306\241ng tr\303\254nh ti\341\272\277p tuy\341\272\277n&quot;;
+    option package;
+	
+	local MSet, F, fixLineEquation, printLatex, printRequest;
+	
+	export getK, getSolutions, createPoints, getEquations, findSolution, showSolution;
+	
+	MSet := {pttt, M, N, d, d_1, k, kx, fx, x_0, y_0}; # bi\341\272\277n ch\341\273\251a gi\303\241 tr\341\273\213 t\306\260\306\241ng \341\273\251ng l\303\240 phuongtrinh, diqua, tiepxuc, songsong, vuonggoc, hesogoc, hesogoc(x), dothi, xtiepdiem, ytiepdiem.
+	
+	F := [
+		[{d}, {k}, [k = `coeff(d, x, 1)`], &quot;delta song song v\341\273\233i $d$, t\303\255nh \304\221\306\260\341\273\243c h\341\273\207 s\341\273\221 g\303\263c $k$&quot;],
+		[{d_1}, {k}, [k = `-1 / coeff(d_1, x, 1)`], &quot;delta vu\303\264ng g\303\263c v\341\273\233i $d_1$, t\303\255nh \304\221\306\260\341\273\243c h\341\273\207 s\341\273\221 g\303\263c $k$&quot;],
+		[{M, kx}, {k}, [k = `getK(M, kx)`], &quot;delta nh\341\272\255n $M$ l\303\240m ti\341\272\277p \304\221i\341\273\203m, c\303\263 ph\306\260\306\241ng tr\303\254nh h\341\273\207 s\341\273\221 g\303\263c $kx$, t\303\255nh \304\221\306\260\341\273\243c h\341\273\207 s\341\273\221 g\303\263c $k$ b\341\272\261ng c\303\241ch th\341\272\277 ho\303\240nh \304\221\341\273\231 ti\341\272\277p \304\221i\341\273\203m $x_0$ v\303\240o $kx$&quot;],
+		[{M, k}, {pttt}, [pttt = `getEquations(M, k)`], &quot;delta nh\341\272\255n $M$ l\303\240m ti\341\272\277p \304\221i\341\273\203m, c\303\263 h\341\273\207 s\341\273\221 g\303\263c $k$, ta vi\341\272\277t \304\221\306\260\341\273\243c Ph\306\260\306\241ng tr\303\254nh ti\341\272\277p tuy\341\272\277n&quot;],
+		[{N, kx, fx}, {x_0}, [x_0=`getSolutions(N[2] = kx*(N[1] - x) + fx)`], &quot;delta \304\221i qua $N (a, b)$, gi\341\272\243i ph\306\260\306\241ng tr\303\254nh $b = kx_0(a - x_0) + f(x_0)$, t\303\254m \304\221\306\260\341\273\243c $x_0$&quot;],
+		[{fx}, {kx}, [kx = `diff(fx, x)`], &quot;T\341\273\253 $f(x)$, suy ra h\341\273\207 s\341\273\221 g\303\263c c\341\273\247a delta: $kx = f'(x)$&quot;],
+		[{kx, k}, {x_0}, [x_0 = `getSolutions(kx = k)`], &quot;Gi\341\272\243i ph\306\260\306\241ng tr\303\254nh $kx = k$, ta \304\221\306\260\341\273\243c ho\303\240nh \304\221\341\273\231 ti\341\272\277p \304\221i\341\273\203m $x_0$&quot;],
+		[{fx,x_0},{y_0, M}, [y_0=`map(x-&gt;fx,x_0)`, M = `createPoints(x_0, y_0)`], &quot;Bi\341\272\277t \304\221\306\260\341\273\243c ho\303\240nh \304\221\341\273\231 ti\341\272\277p \304\221i\341\273\203m $x_0$, th\341\272\277 v\303\240o ph\306\260\306\241ng tr\303\254nh $f(x)$ t\303\255nh \304\221\306\260\341\273\243c tung \304\221\341\273\231 ti\341\272\277p \304\221i\341\273\203m $y_0$, T\341\273\253 \304\221\303\263 t\303\254m \304\221\306\260\341\273\243c ti\341\272\277p \304\221i\341\273\203m $M(x_0, y_0)$)&quot;]
+	];
+	
+	# Chu\341\272\251n h\303\263a l\341\272\241i ph\306\260\306\241ng tr\303\254nh \304\221\306\260\341\273\235ng th\341\272\263ng
+	fixLineEquation := proc(hypothesis, vals)
+		local Known, Values, v, eq, nx, ny;
+		Known := hypothesis;
+		Values := vals;
+		if ({d, d_1} intersect Known) = {} then # \304\221\341\273\201 b\303\240i kh\303\264ng ch\341\273\251a \304\221\306\260\341\273\235ng th\341\272\263ng n\303\240o
+			return Known, Values;
+		end if;
+		
+		for v in Values do
+			if (lhs(v) = d or lhs(v) = d_1) then
+				eq := parse(rhs(v));
+				if not(indets(eq, name) subset {x, y}) then # ph\306\260\306\241ng tr\303\254nh ch\341\273\251a bi\341\272\277n kh\303\264ng h\341\273\243p l\341\273\207
+					return {}, {};
+				end if;
+				
+				if type(eq, equation) then # ph\306\260\306\241ng tr\303\254nh \304\221\306\260\341\273\235ng th\341\272\263ng ch\306\260a \341\273\237 d\341\272\241ng chu\341\272\251n
+					# chu\341\272\251n h\303\263a
+					eq := lhs(eq) - rhs(eq); # chuy\341\273\203n v\341\272\277
+					ny := coeff(eq, y, 1); # h\341\273\207 s\341\273\221 c\341\273\247a y
+					nx := coeff(eq, y, 0); # ph\341\272\247n c\303\262n l\341\272\241i
+					Values := Values minus {v};
+					Values := Values union {lhs(v) = -nx / ny};
+				end if;
+			end if;
+		end do;
+		return Known, Values;
+	end proc;
+	
+	# Gi\341\272\243i ph\306\260\306\241ng tr\303\254nh eq, ch\341\273\211 l\341\272\245y nghi\341\273\207m th\341\273\261c
+    getSolutions := proc(eq) 
+        local solutions, sol;
+
+        solutions := {solve(eq, x)};
+        
+        # Lo\341\272\241i c\303\241c nghi\341\273\207m ph\341\273\251c
+        for sol in solutions do
+            if Im(sol) &lt;&gt; 0 then
+                solutions := solutions minus {sol};
+            end if;
+        end do;
+		if nops(solutions) &gt; 1 then
+			return [op(solutions)];
+		end if;
+		
+		return op(solutions);
+    end proc;
+	
+	# t\341\272\241o ra danh s\303\241ch \304\221i\341\273\203m t\341\273\253 danh s\303\241ch ho\303\240nh \304\221\341\273\231 x v\303\240 tung \304\221\341\273\231 y
+	createPoints := proc(xList, yList)
+		local i, result;
+		if not(type(xList, list)) then
+			return [xList, yList]; # ch\341\273\211 c\303\263 1 \304\221i\341\273\203m
+		end if;
+		
+		result := [];
+		for i from 1 to nops(xList) do
+			result := [op(result), [xList[i], yList[i]]];
+		end do;
+		
+		return result;
+	end proc;
+	
+	# T\341\272\241o danh s\303\241ch h\341\273\207 s\341\273\221 g\303\263c T\341\273\253 danh s\303\241ch ti\341\272\277p \304\221i\341\273\203m
+	getK := proc(M, kx)
+		local result, p;
+		if not(type(M, listlist)) then # Ch\341\273\211 c\303\263 1 \304\221i\341\273\203m
+			return subs({x=M[1]},kx);
+		end if;	
+		
+		result := [];
+		for p in M do
+			result := [op(result), subs({x=p[1]},kx)];
+		end do;
+		return result;
+	end proc;
+	
+	# T\341\272\241o ra danh s\303\241ch ph\306\260\306\241ng tr\303\254nh ti\341\272\277p tuy\341\272\277n t\341\273\253 danh s\303\241ch ti\341\272\277p \304\221i\341\273\203m v\303\240 danh s\303\241ch h\341\273\207 s\341\273\221 g\303\263c
+	getEquations := proc(M, k)
+		local result, i;
+		if not(type(M, listlist)) then # ch\341\273\211 c\303\263 1 ph\306\260\306\241ng tr\303\254nh
+			return (k*x -M[1] * k + M[2]);
+		end if;
+		
+		result := [];
+		for i from 1 to nops(M) do
+			if not(type(k, list)) then
+				result := [op(result), k*x -M[i][1] * k + M[i][2]];
+			else
+				result := [op(result), k[i]*x -M[i][1] * k[i] + M[i][2]];
+			end if;
+		end do;
+		return result;
+	end proc;
+	
+	# T\303\254m ki\341\272\277m l\341\273\235i gi\341\272\243i
+	findSolution := proc(hypothesis, vals)
+		local Known, Values, f, found, e, re, Solution, subSolution, v, message;
+		Known, Values := fixLineEquation(hypothesis, vals);
+		
+		if Known = {} then
+			message := &quot;B\303\240i to\303\241n kh\303\264ng h\341\273\243p l\341\273\207, h\303\243y ki\341\273\203m tra l\341\272\241i&quot;;
+			return [], message;
+		end if;
+		
+		Solution := [];
+		message := &quot;&quot;;
+		while not(member(pttt, Known)) do
+			found := false;
+			for f in F do
+				if (f[1] subset Known) and not(f[2] subset Known) then # s\341\273\261 ki\341\273\207n \304\221\303\243 bi\341\272\277t v\303\240 c\303\263 ph\303\241t sinh s\341\273\261 ki\341\273\207n m\341\273\233i
+					found := true;
+					subSolution := [f[4]];
+					v := {}; # t\341\272\255p c\303\241c gi\303\241 tr\341\273\213 m\341\273\233i t\303\254m \304\221\306\260\341\273\243c
+					for e in f[3] do
+						re := eval(subs(Values,parse(rhs(e))));
+						if type(re, list) and nops(re) = 0 then # k\341\272\277t qu\341\272\243 l\303\240 1 list r\341\273\227ng
+							found := false;
+							message := &quot;B\303\240i to\303\241n g\341\272\267p ph\341\272\243i b\306\260\341\273\233c gi\341\272\243i ch\341\273\251a 1 ph\306\260\306\241ng tr\303\254nh v\303\264 nghi\341\273\207m.&quot;;
+							for v in Values do # Lo\341\272\241i b\341\273\217 1 s\341\273\221 bi\341\272\277n l\341\273\227i \304\221\303\243 t\303\254m \304\221\306\260\341\273\243c tr\306\260\341\273\233c \304\221\303\263
+								if not(member(lhs(v), Known)) then
+									Values := Values minus {v};
+								end if;
+							end do;
+							break;
+						end if;
+						
+						if not(member(lhs(e), Known)) then # gi\303\241 tr\341\273\213 c\341\273\247a bi\341\272\277n n\303\240y ch\306\260a bi\341\272\277t
+							Values := {op(Values), lhs(e) = re};
+							subSolution := [op(subSolution), lhs(e) = re];
+						end if;
+					end do;
+					if found then
+						Known := Known union f[2];
+						Solution := [op(Solution), subSolution];
+						break;
+					end if;
+				end if;
+			end do;
+			if not(found) then # kh\303\264ng t\303\254m th\341\272\245y l\341\273\235i gi\341\272\243i
+				return Solution, message;
+			end if;
+		end do;
+		return Solution, message;
+	end proc;
+	
+	printLatex := proc(str, newline)
+        local a, b, c;
+        
+        printf(&quot;$&quot;);
+        latex(str);
+        
+        printf(&quot;$&quot;);
+        if newline then printf(&quot;\134n\134n&quot;); end if;
+    end proc;
+	
+	# In ra \304\221\341\273\201 b\303\240i nh\341\272\255n \304\221\306\260\341\273\243c
+	printRequest := proc(hypothesis, vals)
+		local function, v, req, p, line;
+		function := &quot;null&quot;;
+		for v in vals do
+			if lhs(v) = fx then
+				function := rhs(v);
+				break;
+			end if;
+		end do;
+		
+		printf(&quot;\134\134textbf{\304\220\341\273\201 b\303\240i:} Vi\341\272\277t ph\306\260\306\241ng tr\303\254nh ti\341\272\277p tuy\341\272\277n v\341\273\233i \304\221\341\273\223 th\341\273\213 (C): $y = &quot;);
+		latex(function);
+		printf(&quot;$  &quot;);
+		
+		req := &quot;&quot;; # ph\341\272\247n sau c\341\273\247a \304\221\341\273\201 b\303\240i
+		line := null; # \304\221\306\260\341\273\235ng th\341\272\263ng trong \304\221\341\273\201 b\303\240i (c\341\272\247n tr\341\272\243 v\341\273\201 \304\221\341\273\203 in d\306\260\341\273\233i d\341\272\241ng latex)
+		for v in vals do
+			if lhs(v) = M then
+				p := rhs(v);
+				req := MapleTA:-Builtin:-strcat(&quot;t\341\272\241i \304\221i\341\273\203m M(&quot;, p[1], &quot;; &quot;, p[2], &quot;)&quot;);
+				break;
+			elif lhs(v) = N then
+				p := rhs(v);
+				req := MapleTA:-Builtin:-strcat(&quot;\304\221i qua \304\221i\341\273\203m N(&quot;, p[1], &quot;; &quot;, p[2], &quot;)&quot;);
+				break;
+			elif lhs(v) = x_0 then
+				req := MapleTA:-Builtin:-strcat(&quot;t\341\272\241i \304\221i\341\273\203m c\303\263 ho\303\240nh \304\221\341\273\231 $x_0$ = &quot;, rhs(v));
+				break;
+			elif lhs(v) = k then
+				req := MapleTA:-Builtin:-strcat(&quot;c\303\263 h\341\273\207 s\341\273\221 g\303\263c k = &quot;, rhs(v));
+				break;
+			elif lhs(v) = d then
+				req := &quot;song song v\341\273\233i \304\221\306\260\341\273\235ng th\341\272\263ng d: &quot;;
+				line := rhs(v);
+				break;
+			elif lhs(v) = d_1 then
+				req := &quot;vu\303\264ng g\303\263c v\341\273\233i \304\221\306\260\341\273\235ng th\341\272\263ng $d_1$: &quot;;
+				line := rhs(v);
+				break;
+			end if;
+		end do;
+		
+		printf(&quot;%s&quot;, req);
+		return parse(line);
+	end proc;
+	
+	# Hi\341\273\203n th\341\273\213 l\341\273\235i gi\341\272\243i
+	showSolution := proc(hypothesis, Values)
+		local Solution, step, i, message, line;
+		line := printRequest(hypothesis, Values);
+		
+		if line &lt;&gt; null then
+			printf(&quot;$&quot;);
+			latex(line);
+			printf(&quot;$&quot;);
+		end if;
+		
+		printf(&quot;\134n\134n\134\134textbf{L\341\273\235i gi\341\272\243i:}\134n\134n&quot;);
+		Solution, message := findSolution(hypothesis, Values);
+		if Solution = [] then
+			printf(&quot;Kh\303\264ng t\303\254m th\341\272\245y l\341\273\235i gi\341\272\243i&quot;);
+		else
+			printf(&quot;G\341\273\215i ti\341\272\277p tuy\341\272\277n c\341\272\247n t\303\254m l\303\240 delta\134n\134n&quot;);
+			for step from 1 to nops(Solution) do
+				printf(&quot;\134\134textbf{B\306\260\341\273\233c %d:} &quot;, step);
+				printf(Solution[step][1]); # c\303\242u gi\341\272\243i th\303\255ch
+				printf(&quot;\134n\134n&quot;);
+				for i from 2 to nops(Solution[step]) do
+					printf(&quot;$%a = $&quot;, lhs(Solution[step][i]));
+					printLatex(rhs(Solution[step][i]), true);
+				end do;
+			end do;
+		end if;
+		
+		if message &lt;&gt; &quot;&quot; then
+			print(message);
+		end if;
+	end proc;
+
+end module:</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L190" drawlabel="true" applyint="true" applyrational="true" applyexponent="false"><Text-field prompt="&gt; " style="Maple Input" layout="Normal">packageDir:= cat(currentdir(), kernelopts(dirsep) , &quot;PhuongTrinhTiepTuyen.mla&quot;);</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">if FileTools:-Exists(packageDir) then FileTools:-Remove(packageDir) end if;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LibraryTools:-Create(packageDir);</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelibname := packageDir;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelib('PhuongTrinhTiepTuyen');</Text-field>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVErcGFja2FnZURpckYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKn4mIzg3ODg7fkYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1FXRTpcamF2YXdvcmtzcGFjZVxLaGFvU2F0SGFtU29cUGh1b25nVHJpbmhUaWVwVHV5ZW4ubWxhRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOQ==">UVdFOlxqYXZhd29ya3NwYWNlXEtoYW9TYXRIYW1Tb1xQaHVvbmdUcmluaFRpZXBUdXllbi5tbGE2Ig==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEsc2F2ZWxpYm5hbWVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSp+JiM4Nzg4O35GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1JI21zR0YkNiNRV0U6XGphdmF3b3Jrc3BhY2VcS2hhb1NhdEhhbVNvXFBodW9uZ1RyaW5oVGllcFR1eWVuLm1sYUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9Rjk=">UVdFOlxqYXZhd29ya3NwYWNlXEtoYW9TYXRIYW1Tb1xQaHVvbmdUcmluaFRpZXBUdXllbi5tbGE2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>

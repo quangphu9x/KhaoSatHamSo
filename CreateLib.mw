@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2016" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="768" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="standard" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">KhaoSatHamSo := module()
+    description &quot;Module gi\341\272\243i to\303\241n kh\341\272\243o s\303\241t h\303\240m s\341\273\221 \304\221\306\241n gi\341\272\243n&quot;;
+    option package;
+   
+    local   getSolutions,
+            getUndefinedSet,
+            getSequence,
+            comparer,
+            removeUndefinedSolutions,
+            isPolynomial,
+            isRationalFraction,
+            printPoints,
+            printLatex;
+
+    export  getDomain, # T\303\254m t\341\272\255p x\303\241c \304\221\341\273\213nh
+            getExtremePoint, # T\303\254m c\341\273\261c tr\341\273\213
+            getMaximumPoints, # T\303\254m c\303\241c \304\221i\341\273\203m c\341\273\261c \304\221\341\272\241i
+            getMinimumPoints, # T\303\254m c\303\241c \304\221i\341\273\203m c\341\273\261c ti\341\273\203u
+            getInflectionPoints, # T\303\254m c\303\241c \304\221i\341\273\203m u\341\273\221n
+            getVerticalAsymptotes, # T\303\254m ti\341\273\207m c\341\272\255n \304\221\341\273\251ng
+            getObliqueAsymtotes, # T\303\254m ti\341\273\207m c\341\272\255n xi\303\252n
+            getHorizontalAsymtotes, # T\303\254m ti\341\273\207m c\341\272\255n ngang
+            getIncreaseIntervals, # T\303\254m kho\341\272\243ng \304\221\341\273\223ng bi\341\272\277n
+            getDecreaseIntervals, # T\303\254m kho\341\272\243ng ngh\341\273\213ch bi\341\272\277n
+            showSolution, # Hi\341\273\203n th\341\273\213 l\341\273\235i gi\341\272\243i
+            createPlot, # T\341\272\241o \304\221\341\273\223 th\341\273\213
+            bangBienThien;
+
+    isPolynomial := proc(func)
+        if type(func, polynom(anything, x)) then
+            return true;
+        end if;
+
+        return false;
+    end proc;
+
+    isRationalFraction := proc(func)
+        if isPolynomial(func) then
+           return false;
+        end if;
+
+        if isPolynomial(denom(func)) and 
+            isPolynomial(numer(func)) then
+            return true;
+        end if;
+
+        return false;
+    end proc;
+
+    # Gi\341\272\243i ph\306\260\306\241ng tr\303\254nh func = 0
+    getSolutions := proc(func) 
+        local solutions, sol;
+
+        solutions := {solve(func = 0, x)};
+        
+        # Lo\341\272\241i c\303\241c nghi\341\273\207m ph\341\273\251c
+        for sol in solutions do
+            if type(sol, complex) = true and Im(sol) &lt;&gt; 0 then
+                solutions := solutions minus {sol};
+            end if;
+        end do;
+
+        return solutions;
+    end proc;
+
+    # L\341\272\245y c\303\241c gi\303\241 tr\341\273\213 m\303\240 t\341\272\241i \304\221\303\263 h\303\240m kh\303\264ng x\303\241c \304\221\341\273\213nh
+    getUndefinedSet := proc(func) 
+        local undefinedSet, elem;
+
+        if isPolynomial(func) then
+            return {};
+        end if;
+
+        if isRationalFraction(func) then
+            denom(func);
+            undefinedSet := getSolutions(%);
+        end if;
+
+        return undefinedSet;
+    end proc;
+
+    # Lo\341\272\241i b\341\273\217 c\303\241c nghi\341\273\207m kh\303\264ng thu\341\273\231c t\341\272\255p x\303\241c \304\221\341\273\213nh
+    removeUndefinedSolutions := proc(solutions, undefinedSet)
+        local sol, newSolutions;
+        
+        newSolutions := solutions;
+        for sol in newSolutions do
+            if sol in undefinedSet then
+                newSolutions := newSolutions minus {sol};
+            end if;
+        end do;
+
+        return newSolutions;
+    end proc;
+    
+    # In ra t\341\272\255p c\303\241c \304\221i\341\273\203m
+    printPoints := proc(points)
+        local temp, i;
+        
+        i := 0;
+        for temp in points do
+            i := i + 1;
+            if i &gt; 1 then printf(&quot;, &quot;) end if;
+            printf(&quot;(&quot;);
+            printLatex(temp[1], false);
+            printf(&quot;; &quot;);
+            printLatex(temp[2], false);
+            printf(&quot;)&quot;);
+        end do;
+        printf(&quot;\134n\134n&quot;);
+    end proc;
+    
+    printLatex := proc(str, newline)
+        local a, b, c;
+        
+        printf(&quot;$&quot;);
+        if type(str, fraction) then
+            if str &lt; 0 then printf(&quot;-&quot;); end if;
+            c := abs(str);
+            a := numer(c);
+            b := denom(c);
+            printf(&quot;\134\134dfrac{%d}{%d}&quot;, a, b);
+        elif str = infinity then
+            printf(&quot;+\134\134infty&quot;);
+        else
+            latex(str);
+        end if;
+        
+        printf(&quot;$&quot;);
+        if newline then printf(&quot;\134n\134n&quot;); end if;
+    end proc;
+    
+    # T\303\254m t\341\272\255p x\303\241c \304\221\341\273\213nh
+    getDomain := proc(func)
+        local   elem,
+                domain,
+                undefinedSet; 
+
+        undefinedSet := getUndefinedSet(func);
+        if undefinedSet = {} then
+            return {};
+        end if;
+
+        domain := {};
+        for elem in undefinedSet do
+            domain := domain union {elem};
+        end do;
+
+        return domain;
+    end proc;
+    
+    # T\303\254m c\341\273\261c tr\341\273\213
+    getExtremePoint := proc(function)
+        local diffLevel1, undefinedSet, solutions;
+        
+        undefinedSet := getUndefinedSet(func);
+        diffLevel1 := diff(function, x);
+        solutions := getSolutions(diffLevel1);
+        solutions := removeUndefinedSolutions(solutions, undefinedSet);
+        
+        return solutions;
+        
+    end proc;
+
+    # T\303\254m \304\221i\341\273\203m c\341\273\261c \304\221\341\272\241i
+    getMaximumPoints := proc(func)
+        local   diffLevel1, diffLevel2,
+                solutions, result,
+                sol, undefinedSet;
+        
+        undefinedSet := getUndefinedSet(func);
+        diffLevel1 := diff(func, x);
+        diffLevel2 := diff(diffLevel1, x);
+        solutions := getSolutions(diffLevel1);
+        solutions := removeUndefinedSolutions(solutions, undefinedSet);
+
+        result := {};
+        for sol in solutions do
+            if evalf(eval(diffLevel2, x = sol)) &lt; 0 then
+                simplify(eval(func, x = sol));
+                result := result union {[sol, %]};
+            end if;
+        end do;
+
+        return result;
+    end proc;
+
+    # T\303\254m \304\221i\341\273\203m c\341\273\261c ti\341\273\203u 
+    getMinimumPoints := proc(func)
+        local   diffLevel1, diffLevel2,
+                solutions, result,
+                sol, undefinedSet;
+        
+        undefinedSet := getUndefinedSet(func);
+        diffLevel1 := diff(func, x);
+        diffLevel2 := diff(diffLevel1, x);
+        solutions := getSolutions(diffLevel1);
+        solutions := removeUndefinedSolutions(solutions, undefinedSet);
+        
+        result := {};
+        for sol in solutions do
+            if evalf(eval(diffLevel2, x = sol)) &gt; 0 then
+                simplify(eval(func, x = sol));
+                result := result union {[sol, %]};
+            end if;
+        end do;
+
+        return result;
+    end proc;
+
+    # T\303\254m \304\221i\341\273\203m u\341\273\221n
+    getInflectionPoints := proc(func)
+        local   solutions, 
+                diffLevel2, 
+                undefinedSet,
+                result,
+                sol;
+
+        diffLevel2 := diff(func, x$2);
+        undefinedSet := getUndefinedSet(func);
+        solutions := getSolutions(diffLevel2);
+        solutions := removeUndefinedSolutions(solutions, undefinedSet);
+
+        result := {};
+        for sol in solutions do
+            simplify(eval(func, x = sol));
+            result := result union {[sol, %]};
+        end do;
+
+        return result;
+    end proc;
+
+    # T\303\254m c\303\241c ti\341\273\207m c\341\272\255n \304\221\341\273\251ng 
+    getVerticalAsymptotes := proc(func)
+        local expr, asymtotes, s, i;
+
+        asymtotes := {};
+        expr := denom(simplify(func));
+        s := getSolutions(expr);
+        for i in s do
+            asymtotes := asymtotes union {'x' = i};
+        end do;
+
+        return asymtotes;
+    end proc;
+
+    # T\303\254m ti\341\273\207m c\341\272\255n xi\303\252n
+    getObliqueAsymtotes := proc(func)
+        local a, b, asymtotes;
+
+        asymtotes := {};
+
+        a := limit(func / x, x = infinity);
+        if evalb(a &gt; -infinity) and evalb(a &lt; infinity) and evalb(a &lt;&gt; 0) then
+            b := limit(func - a * x, x = infinity);
+            if evalb(b &gt; -infinity) and evalb(b &lt; infinity) then
+                asymtotes := asymtotes union {a * x + b};
+            end if;
+        end if;
+
+        a := limit(func / x, x = -infinity);
+        if evalb(a &gt; -infinity) and evalb(a &lt; infinity) and evalb(a &lt;&gt; 0) then
+            b := limit(func - a * x, x = -infinity);
+            if evalb(b &gt; -infinity) and evalb(b &lt; infinity) then
+                asymtotes := asymtotes union {a * x + b};
+            end if;
+        end if;
+
+        return asymtotes;
+    end proc;
+
+    getHorizontalAsymtotes := proc(func) 
+        local result, c1, c2;
+        
+        result := {};
+        c1 := limit(func, x = infinity);
+        c2 := limit(func, x = -infinity);
+
+        if evalb(c1 &gt; -infinity) and evalb(c1 &lt; infinity) then
+            result := result union {'y' = c1};
+        end if;
+
+        if evalb(c2 &gt; -infinity) and evalb(c2 &lt; infinity) then
+            result := result union {'y' = c2};
+        end if;
+        
+        return result;
+    end proc;
+
+    comparer := proc(a, b)
+        return evalb(evalf(a) &lt; evalf(b));
+    end proc;
+
+    getSequence := proc(func)
+        local   s, 
+                s1, s2, 
+                elem, i;
+
+        s := {};
+        s1 := getMaximumPoints(func) union getMinimumPoints(func);
+        
+        for elem in s1 do
+            s := s union {op(1, elem)};
+        end do;
+
+        s2 := getUndefinedSet(func);
+        s := s union s2 union {-infinity, infinity};
+        s := [op(s)];
+        s := sort(s, `comparer`);
+
+        return s;
+    end proc;
+
+    # T\303\254m kho\341\272\243ng \304\221\341\273\223ng bi\341\272\277n
+    getIncreaseIntervals := proc(func)
+        local   s, i, intervals, 
+                x1, x2, y1, y2;
+
+        intervals := [];
+        s := getSequence(func);
+
+        for i from 1 to nops(s) - 1 do
+            x1 := s[i];
+            x2 := s[i + 1];
+            y1 := limit(func, x = x1, right);
+            y2 := limit(func, x = x2, left);
+
+            if evalb(evalf(y1) &lt; evalf(y2)) then
+                intervals := [op(intervals), [x1, x2]];
+            end if;
+        end do;
+
+        return intervals;
+    end proc;
+
+    # T\303\254m kho\341\272\243ng ngh\341\273\213ch bi\341\272\277n
+    getDecreaseIntervals := proc(func)
+        local   s, i, intervals, 
+                x1, x2, y1, y2;
+
+        intervals := [];
+        s := getSequence(func);
+
+        for i from 1 to nops(s) - 1 do
+            x1 := s[i];
+            x2 := s[i + 1];
+            y1 := limit(func, x = x1, right);
+            y2 := limit(func, x = x2, left);
+
+            if evalb(evalf(y1) &gt; evalf(y2)) then
+                intervals := [op(intervals), [x1, x2]];
+            end if;
+        end do;
+
+        return intervals;
+    end proc;
+
+    # Hi\341\273\203n th\341\273\213 l\341\273\235i gi\341\272\243i
+    showSolution := proc(function)
+        local   domain, temp, str,
+                increase, decrease, 
+                minimums, maximums,
+                inflections, extremePoints,
+                horizontals, verticals, obliques,
+                val;
+
+        printf(&quot;1. T\341\272\255p x\303\241c \304\221\341\273\213nh: D = R&quot;);
+        domain := getDomain(function);
+        if domain &lt;&gt; {} then
+            printf(&quot; \134\134textbackslash &quot;);
+            printLatex(domain, true);
+        else
+            printf(&quot;\134n\134n&quot;);
+        end if;
+        
+        printf(&quot;2. S\341\273\261 bi\341\272\277n thi\303\252n:\134n\134n&quot;);
+        printf(&quot;a) Gi\341\273\233i h\341\272\241n t\341\272\241i v\303\264 c\341\273\261c&quot;);
+        if domain &lt;&gt; {} then
+            printf(&quot;, gi\341\273\233i h\341\272\241n v\303\264 c\341\273\261c v\303\240 ti\341\273\207m c\341\272\255n&quot;);
+        end if;
+        printf(&quot;\134n\134n&quot;);
+        
+        printLatex('limit(y, x = -infinity)', false);
+        printf(&quot; = &quot;);
+        val := limit(y, x = -infinity);
+        printLatex(val , true);
+        
+        printLatex('limit(y, x = infinity)', false);
+        printf(&quot; = &quot;);
+        val := limit(y, x = infinity);
+        printLatex(val, true);
+        
+        for temp in domain do
+            str := cat(&quot;limit(y,x=&quot;, temp ,&quot;,left);&quot;);
+            printLatex(parse(str), false);
+            printf(&quot; = &quot;);
+            printLatex(limit(y, x = temp, left), true);
+            
+            str := cat(&quot;limit(y,x=&quot;, temp ,&quot;,right);&quot;);
+            printLatex(parse(str), false);
+            printf(&quot; = &quot;);
+            printLatex(limit(y, x = temp, right), true);
+        end do;
+   
+        horizontals := getHorizontalAsymtotes(function);
+        verticals := getVerticalAsymptotes(function);
+        obliques := getObliqueAsymtotes(function);
+        
+        if (verticals &lt;&gt; {}) then
+            printf(&quot;Ti\341\273\207m c\341\272\255n \304\221\341\273\251ng: &quot;);
+            printLatex(op(verticals), true);
+        end if;
+        
+        if (horizontals &lt;&gt; {}) then
+            printf(&quot;Ti\341\273\207m c\341\272\255n ngang: &quot;);
+            printLatex(op(horizontals), true);
+        end if;
+
+        if (obliques &lt;&gt; {}) then
+            for temp in obliques do
+                str := cat(&quot;limit(y -(&quot;, temp, &quot;), x=-infinity);&quot;);
+                printLatex(parse(str), false);
+                printf(&quot; = &quot;);
+                printLatex(limit(y-temp,x=-infinity), true);
+                
+                str := cat(&quot;limit(y -(&quot;, temp, &quot;), x=infinity);&quot;);
+                printLatex(parse(str), false);
+                printf(&quot; = &quot;);
+                printLatex(limit(y-temp,x=infinity), true);
+                printf(&quot;N\303\252n \304\221\306\260\341\273\235ng th\341\272\263ng y = &quot;);
+                printLatex(temp, false);
+                printf(&quot; l\303\240 ti\341\273\207m c\341\272\255n xi\303\252n c\341\273\247a \304\221\341\273\223 th\341\273\213 h\303\240m s\341\273\221 \304\221\303\243 cho.\134n\134n&quot;);
+            end do;
+        end if;
+        
+        printf(&quot;b) B\341\272\243ng bi\341\272\277n thi\303\252n\134n\134n&quot;);
+        printf(&quot;Ta c\303\263: y' = &quot;);
+        val := diff(y, x);
+        printLatex(val, true);
+        
+        extremePoints := getExtremePoint(function);
+        if extremePoints &lt;&gt; {} then
+            printf(&quot;y' = 0 $\134\134left&lt;=\134\134right&gt;$ x = &quot;);
+            printLatex(extremePoints, true);
+        end if;
+
+        increase := getIncreaseIntervals(function);
+        if (increase &lt;&gt; []) then
+            printf(&quot;H\303\240m s\341\273\221 \304\221\341\273\223ng bi\341\272\277n tr\303\252n c\303\241c kho\341\272\243ng: &quot;);
+            printPoints(increase);
+        end if;
+        
+        decrease := getDecreaseIntervals(function);
+        if (decrease &lt;&gt; []) then
+            printf(&quot;H\303\240m s\341\273\221 ngh\341\273\213ch bi\341\272\277n tr\303\252n c\303\241c kho\341\272\243ng: &quot;);
+            printPoints(decrease);
+        end if;
+
+        minimums := getMinimumPoints(function);
+        maximums := getMaximumPoints(function);
+        inflections := getInflectionPoints(function);
+
+        if (minimums &lt;&gt; {}) then
+            printf(&quot;H\303\240m s\341\273\221 \304\221\341\272\241t c\341\273\261c ti\341\273\203u t\341\272\241i: &quot;);
+            printPoints(minimums);
+        end if;
+        
+        if (maximums &lt;&gt; {}) then
+            printf(&quot;H\303\240m s\341\273\221 \304\221\341\272\241t c\341\273\261c \304\221\341\272\241i t\341\272\241i: &quot;);
+            printPoints(maximums);
+        end if;
+        
+        printf(&quot;\134n\134n&quot;);
+        bangBienThien(function);
+        
+        printf(&quot;\134n\134n3. \304\220\341\273\223 th\341\273\213\134n\134n&quot;);
+        
+        if (inflections &lt;&gt; {}) then
+            printf(&quot;C\303\241c \304\221i\341\273\203m u\341\273\221n: &quot;);
+            printLatex(inflections, true);
+        end if;
+
+        createPlot(function);
+        printf(&quot;\134\134includegraphics[scale=.5]{plot.jpg}\134n\134n&quot;);
+
+    end proc;
+    
+    createPlot := proc(function)
+        local verticals, horizontals, obliques, inflection, extremePoints,
+        str, temp, temp1, minValue, maxValue, center, sol, soCucTri, undefinedSet, graph;
+        
+        verticals := getVerticalAsymptotes(function);
+        horizontals := getHorizontalAsymtotes(function);
+        obliques := getObliqueAsymtotes(function);
+        inflection := getInflectionPoints(function);
+        extremePoints := getExtremePoint(function);
+        
+        # ve ham, tiem can ngang, tiem can xien
+        str := cat(&quot;&quot;, function);
+        if horizontals &lt;&gt; {} then
+            for temp in horizontals do
+                str := cat(str, &quot;,&quot;, rhs(temp));
+            end do;
+        end if;
+        
+        if obliques &lt;&gt; {} then
+            str := cat(str, &quot;,&quot;, op(obliques));
+        end if;
+        
+        temp := parse(str);
+        temp := [temp];
+        
+        # tim khoang gioi han
+        minValue := 0;
+        maxValue := 0;
+        sol := getSolutions(function); # giai phuong trinh
+        sol := sol union extremePoints; # lay tap hop cac nghiem va cuc tri
+        undefinedSet := getUndefinedSet(function);
+        sol := removeUndefinedSolutions(sol, undefinedSet);
+        
+        if sol &lt;&gt; {} then
+            minValue := min(sol);
+            maxValue := max(sol);
+        end if;
+        
+        # Tim tam/truc doi xung
+        center := {};
+        sort(extremePoints, `comparer`);
+        soCucTri := numelems(extremePoints);
+        if isPolynomial(function) then
+            if (degree(function) mod 2) = 0 then
+                # diem cuc tri chinh giua la truc doi xung
+                center := extremePoints[round(soCucTri / 2)];
+            end if;
+        elif verticals &lt;&gt; {} then
+            # giao diem tiem can dung va ngang(xien) la tam doi xung
+            center := rhs(verticals[1]);
+        elif inflection &lt;&gt; {} then
+            center := inflection[1][1]; 
+        end if;
+        
+        if center &lt;&gt; {} then
+            # lay khoang tu tam den nghiem xa nhat
+            temp1 := max(abs(center - minValue), abs(center - maxValue));
+            minValue := center - temp1;
+            maxValue := center + temp1;
+        end if;
+        
+        graph := plot(temp, x=minValue-2..maxValue+2);
+        Export(&quot;plot.jpg&quot;, graph);
+    end proc;
+
+    bangBienThien := proc(function)
+        local points, numPoints, dongBien, nghichBien, dau, i, undefinedSet, a, b;
+        
+        printf(&quot;\134\134begin{tikzpicture}\134n&quot;);
+        printf(&quot;\134\134tkzTabInit[nocadre=false,lgt=1,espcl=2]\134n&quot;);
+        printf(&quot;{$x$ /1,$y'$ /1,$y$ /2}&quot;);
+        
+        undefinedSet := getUndefinedSet(function);
+        points := getSequence(function);
+        numPoints := numelems(points);
+        
+        dongBien := getIncreaseIntervals(function);
+        nghichBien := getDecreaseIntervals(function);
+        
+        printf(&quot;{&quot;);
+        for i from 1 to numPoints do
+            if i &gt; 1 then printf(&quot;,&quot;) end if;
+            printLatex(points[i], false);
+        end do;
+        printf(&quot;}\134n&quot;);
+        
+        printf(&quot;\134\134tkzTabLine{&quot;);
+        dau := [];
+        for i from 1 to numPoints - 1 do
+            if ([points[i], points[i + 1]] in dongBien) then
+                dau := [op(dau), &quot;+&quot;];
+            else
+                dau := [op(dau), &quot;-&quot;];
+            end if;
+            
+            if i &gt; 1 then
+                if points[i] in undefinedSet then
+                    printf(&quot;d&quot;);
+                else
+                    printf(&quot;$0$&quot;);
+                end if;
+            end if;
+            printf(&quot;,%s,&quot;, dau[i]);
+        end do;
+        printf(&quot;}\134n&quot;);
+        
+        printf(&quot;\134\134tkzTabVar{&quot;);
+        for i from 1 to numPoints do
+            if i &gt; 1 then printf(&quot;, &quot;); end if;
+            
+            if points[i] in undefinedSet then
+                if dau[i - 1] = &quot;+&quot; then printf(&quot;+&quot;); else printf(&quot;-&quot;); end if;
+                printf(&quot;D&quot;);
+                if dau[i] = &quot;+&quot; then printf(&quot;-&quot;); else printf(&quot;+&quot;); end if;
+                a := limit(function, x = points[i], left);
+                b := limit(function, x = points[i], right);
+                printf(&quot;/ &quot;);
+                printLatex(a, false);
+                printf(&quot; / &quot;);
+                printLatex(b, false);
+            else
+                if i = numPoints then
+                    if dau[i - 1] = &quot;+&quot; then printf(&quot;+&quot;); else printf(&quot;-&quot;); end if;
+                else
+                    if dau[i] = &quot;+&quot; then printf(&quot;-&quot;); else printf(&quot;+&quot;); end if;
+                end if;
+                
+                printf(&quot;/ &quot;);
+                a := limit(function, x = points[i]);
+                printLatex(a, false);
+                printf(&quot; /&quot;);
+            end if;
+        end do;
+        printf(&quot;}\134n&quot;);
+        
+        printf(&quot;\134\134end{tikzpicture}&quot;);
+        
+    end proc;
+
+end module:</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L188" drawlabel="true" applyint="true" applyrational="true" applyexponent="false"><Text-field prompt="&gt; " style="Maple Input" layout="Normal">packageDir:= cat(currentdir(), kernelopts(dirsep) , &quot;KhaoSatHamSo.mla&quot;);</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">if FileTools:-Exists(packageDir) then FileTools:-Remove(packageDir) end if;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LibraryTools:-Create(packageDir);</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelibname := packageDir;</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelib('KhaoSatHamSo');</Text-field>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVErcGFja2FnZURpckYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKn4mIzg3ODg7fkYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1FVRTpcamF2YXdvcmtzcGFjZVxLaGFvU2F0SGFtU29cbWFwbGVcS2hhb1NhdEhhbVNvLm1sYUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9Rjk=">UVVFOlxqYXZhd29ya3NwYWNlXEtoYW9TYXRIYW1Tb1xtYXBsZVxLaGFvU2F0SGFtU28ubWxhNiI=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEsc2F2ZWxpYm5hbWVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSp+JiM4Nzg4O35GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1JI21zR0YkNiNRVUU6XGphdmF3b3Jrc3BhY2VcS2hhb1NhdEhhbVNvXG1hcGxlXEtoYW9TYXRIYW1Tby5tbGFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5">UVVFOlxqYXZhd29ya3NwYWNlXEtoYW9TYXRIYW1Tb1xtYXBsZVxLaGFvU2F0SGFtU28ubWxhNiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
